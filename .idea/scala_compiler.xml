@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaCompilerConfiguration">
-    <profile name="Maven 1" modules="breeze-wrapper" />
+    <profile name="Maven 1" modules="breeze-wrapper">
+      <option name="implicitConversions" value="true" />
+      <option name="higherKinds" value="true" />
+      <option name="existentials" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <parameters>
+        <parameter value="-Xlint" />
+        <parameter value="-Yno-adapted-args" />
+        <parameter value="-Ywarn-dead-code" />
+        <parameter value="-Ywarn-numeric-widen" />
+        <parameter value="-Ywarn-value-discard" />
+        <parameter value="-Xfuture" />
+      </parameters>
+    </profile>
   </component>
 </project>
