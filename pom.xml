@@ -11,7 +11,7 @@
     <properties>
         <scalaBinaryVersion>2.12</scalaBinaryVersion>
         <scalaVersion>2.12.1</scalaVersion>
-        <breezeVersion>0.13</breezeVersion>
+        <breezeVersion>0.13.2</breezeVersion>
     </properties>
 
     <dependencies>
